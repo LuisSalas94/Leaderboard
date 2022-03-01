@@ -1,56 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
 > Description the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Get a github account
+- Install gitbash 
+- Use your favorite IDE 
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone this GitHub repository [link](https://github.com/LuisSalas94/Leaderboard) to your local machine.
+- CD into folder name.
+- On the terminal, run "npm install" to install the dependencies.
+- Finally, run "npm start" to open the app in your Web Browser.
 
 
 ## Authors
 
-👤 **Author1**
+- GitHub: [@LuisSalas94](https://github.com/LuisSalas94)
+- LinkedIn: [Fernando Salas](https://www.linkedin.com/in/luisfernandosalasgave/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -62,11 +45,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
