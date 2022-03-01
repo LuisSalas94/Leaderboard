@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Mouse+Memoirs&display=swap");
+
+:root {
+  --color1: #bdbdfd;
+  --color2: #bc75f9;
+  --color3: #535eeb;
+  --color4: #00218a;
+  --color5: #f1f2f6;
+}
 
 * {
   padding: 0;
@@ -9,19 +17,35 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
   color: #333;
+}
+
+body {
+  background-color: var(--color1);
+}
+
+h1,
+h2 {
+  font-family: "Monoton", cursive;
 }
 
 h1 {
   margin: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.8rem;
 }
 
 section {
   display: flex;
-  justify-content: flex-start;
-  gap: 0 3rem;
-  margin-left: 3rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0 10rem;
+  margin-top: 4rem;
 }
 
 .scores div {
@@ -32,45 +56,79 @@ section {
 
 .scores button,
 .form button {
+  font-family: "Mouse Memoirs", sans-serif;
+  border: none;
+  outline: none;
   margin-left: 20px;
-  height: 25px;
-  width: 70px;
+  height: 40px;
+  width: 120px;
+  letter-spacing: 3px;
+  font-size: 1.3rem;
   background: none;
-  border: 1px solid #333;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 10px;
+  color: var(--color2);
+  background-color: var(--color4);
+  transition: all 0.2s ease-in;
+}
+
+.scores button i,
+.form button i {
+  padding-left: 5px;
+}
+
+.form button {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.scores button:hover,
+.form button:hover {
+  color: var(--color4);
+  background-color: var(--color2);
 }
 
 .scores ul {
-  width: 400px;
-  border: 2px solid #333;
+  width: 500px;
+  border: 2px solid var(--color4);
   margin-top: 1rem;
-  border-radius: 3px;
+  background-color: var(--color5);
+  border-radius: 10px;
 }
 
 .scores ul li {
   margin: 5px 0;
-  height: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .scores ul li span {
+  font-size: 1.5rem;
   padding-left: 10px;
   text-transform: capitalize;
+  font-family: "Mouse Memoirs", sans-serif;
 }
 
 .scores ul li:nth-child(even) {
-  background-color: #ddd;
+  background-color: var(--color1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form input {
   display: block;
-  width: 200px;
-  padding: 5px;
-  margin: 15px 0;
+  outline: none;
+  width: 400px;
+  padding: 12px;
+  background-color: var(--color5);
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-family: "Mouse Memoirs", sans-serif;
   border: 2px solid #333;
-  border-radius: 3px;
-}
-
-.form button {
-  float: right;
+  border-radius: 10px;
 }

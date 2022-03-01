@@ -4,6 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<title>Leaderboard</title>
 	</head>
 	<body>
@@ -12,15 +19,19 @@
 			<div class="scores">
 				<div class="">
 					<h2>Recent scores</h2>
-					<button type="button" id="refreshBtn">Refresh</button>
+					<button type="button" id="refreshBtn">
+						Refresh <i class="fa-solid fa-arrows-rotate"></i>
+					</button>
 				</div>
 				<ul id="container"></ul>
 			</div>
 			<form class="form">
 				<h2>Add your score</h2>
-				<input type="text" id="name" placeholder="Your name" required/>
-				<input type="number" id="score" placeholder="Your score" required/>
-				<button type="submit" id="submitBtn">Submit</button>
+				<input type="text" id="name" placeholder="Your name" required />
+				<input type="number" id="score" placeholder="Your score" required />
+				<button type="submit" id="submitBtn">
+					Submit <i class="fa-solid fa-arrow-up-from-bracket"></i>
+				</button>
 			</form>
 		</section>
 		<script src="index.js" type="module"></script>
