@@ -8,19 +8,19 @@
 	</head>
 	<body>
 		<h1>Leaderboard</h1>
-		<section>
+		<section class="leaderboardContainer">
 			<div class="scores">
-				<div>
+				<div class="">
 					<h2>Recent scores</h2>
-					<button type="button">Refresh</button>
+					<button type="button" id="refreshBtn">Refresh</button>
 				</div>
 				<ul id="container"></ul>
 			</div>
 			<form class="form">
 				<h2>Add your score</h2>
-				<input type="text" placeholder="Your name" />
-				<input type="text" placeholder="Your score" />
-				<button type="submit">Submit</button>
+				<input type="text" id="name" placeholder="Your name" required/>
+				<input type="number" id="score" placeholder="Your score" required/>
+				<button type="submit" id="submitBtn">Submit</button>
 			</form>
 		</section>
 		<script src="index.js" type="module"></script>
